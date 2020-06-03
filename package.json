@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server --no-browser",
     "upload": "git add . && git commit -m auto && git push"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dgraebe/dgraebe.github.io/issues"
   },
-  "homepage": "https://github.com/dgraebe/dgraebe.github.io#readme"
+  "homepage": "https://github.com/dgraebe/dgraebe.github.io#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
