@@ -10,13 +10,6 @@ p {
   font-size: 50px;
 }
 
-p.styled {
-  transition: background-color 1s linear;
-}
-p.styled:hover {
-  background-color: red;
-}
-
 body {
   animation-name: switching-colors;
   animation-duration: 3s;
@@ -35,5 +28,20 @@ body {
   }
   100% {
     background-color: blue;
+  }
+}
+
+img {
+  animation-name: rotate-lama;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-lama {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
