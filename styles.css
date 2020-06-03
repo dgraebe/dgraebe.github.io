@@ -11,5 +11,29 @@ p {
 }
 
 p.styled {
-  background-color: palegoldenrod;
+  transition: background-color 1s linear;
+}
+p.styled:hover {
+  background-color: red;
+}
+
+body {
+  animation-name: switching-colors;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes switching-colors {
+  0% {
+    background-color: blue;
+  }
+  33% {
+    background-color: yellow;
+  }
+  66% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
 }
