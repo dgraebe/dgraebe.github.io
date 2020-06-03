@@ -1,5 +1,5 @@
 body {
-  background-color: greenyellow;
+  background-color: wheat;
 }
 
 h1 {
@@ -7,9 +7,9 @@ h1 {
 }
 
 p {
-  font-size: 35px;
+  font-size: 50px;
 }
 
 p.styled {
-  background-color: orange;
+  background-color: palegoldenrod;
 }
