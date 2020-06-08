@@ -1,0 +1,18 @@
+body {
+  animation-name: switching-colors;
+}
+
+@keyframes switching-colors {
+  0% {
+    background-color: greenyellow;
+  }
+  33% {
+    background-color: lightblue;
+  }
+  66% {
+    background-color: burlywood;
+  }
+  100% {
+    background-color: greenyellow;
+  }
+}

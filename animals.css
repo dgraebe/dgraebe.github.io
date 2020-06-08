@@ -1,0 +1,30 @@
+body {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  margin: 0;
+}
+
+div.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+img {
+  animation-name: rotate-animals;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  width: 25vw;
+}
+
+@keyframes rotate-animals {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
